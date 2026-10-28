@@ -1,0 +1,17 @@
+{
+  "name": "fieldservice-report-pdf",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/report_service.ts",
+    "test": "node --experimental-strip-types src/report_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  },
+  "dependencies": {
+    "zod": "^3.24.1"
+  }
+}
